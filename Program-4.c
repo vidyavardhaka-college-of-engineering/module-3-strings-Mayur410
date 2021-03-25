@@ -10,11 +10,11 @@
 
 #include<stdio.h>
 int main() {
-	char str[100];
+	char str[1000];
   int i;
 	printf("Enter a string : ");
 	scanf("%s",str); 
 	for(i=0; str[i]!='\0'; ++i);
-	printf("The length of string =  %d",i);
+	printf("The length of string =%d",i);
 	return 0;
 	}
